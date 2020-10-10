@@ -5,15 +5,15 @@ with open("README.md") as fh:
     LONG_DESCRIPTION = fh.read()
 
 setuptools.setup(
-    name="torch-summary",
-    version="1.4.3",
+    name="torchinfo",
+    version="0.0.1",
     author="Tyler Yep @tyleryep",
     author_email="tyep10@gmail.com",
-    description="Model summary in PyTorch, based off of the original torchsummary.",
+    description="Pytorch model summary table containing layer sizes and shapes.",
     long_description=LONG_DESCRIPTION,
     long_description_content_type="text/markdown",
-    url="https://github.com/tyleryep/torch-summary",
-    packages=["torchsummary"],
+    url="https://github.com/tyleryep/torchinfo",
+    packages=["torchinfo"],
     keywords=(
         "torch pytorch torchsummary torch-summary summary keras deep-learning ml "
         "torchinfo torch-info visualize model statistics layer"

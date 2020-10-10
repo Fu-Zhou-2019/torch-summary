@@ -1,4 +1,4 @@
-""" unit_test/torchsummary_test.py """
+""" unit_test/torchinfo_test.py """
 import numpy as np
 import torch
 import torchvision
@@ -15,11 +15,11 @@ from fixtures.models import (
     SiameseNets,
     SingleInputNet,
 )
-from torchsummary import summary
+from torchinfo import summary
 
 
 class TestModels:
-    """ Test torchsummary on many different models. """
+    """ Test torchinfo on many different models. """
 
     @staticmethod
     def test_single_input() -> None:

@@ -15,7 +15,7 @@ from fixtures.models import (
     LSTMNet,
     SingleInputNet,
 )
-from torchsummary import summary
+from torchinfo import summary
 
 
 class TestOutputString:

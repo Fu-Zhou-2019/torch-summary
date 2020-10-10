@@ -11,7 +11,6 @@ cd "${0%/*}/.."
 mypy .
 
 # Auto-code formatters
-# f2format -q --no-archive torchsummary
 isort .
 black .
 git add .
@@ -21,4 +20,4 @@ flake8 .
 find . -iname "*.py" | xargs pylint
 
 # Testing
-pytest --cov=torchsummary --cov-report=html unit_test
+pytest --cov=torchinfo --cov-report=html unit_test
